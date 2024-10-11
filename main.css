@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 100vh; /* Минимальная высота равная высоте видимой области */
+    min-height: 100vh; 
     margin: 0;
     background-image: url('img/main.png');
     background-size: cover;
@@ -40,33 +40,33 @@ body {
 .footer .links-style {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; /* Промежутки между ссылками */
-    margin-right: auto; /* Автоматический отступ справа */
-    margin-left: auto; /* Автоматический отступ слева */
+    justify-content: space-between; 
+    margin-right: auto;
+    margin-left: auto; 
 }
 
 
 .logo-container {
-    margin-top: 30px; /* добавляем отступ сверху */
-    text-align: center; /* выравниваем по центру */
+    margin-top: 30px; 
+    text-align: center; 
 }
 
 .logo-container img {
-    max-width: 200px; /* устанавливаем максимальную ширину для логотипа */
-    height: auto; /* автоматическое вычисление высоты для сохранения пропорций */
+    max-width: 200px; 
+    height: auto;
 }
 
 #content {
     text-align: center;
     font-weight: bold;
-    margin-bottom: auto; /* Растягиваем контент на всю доступную высоту */
+    margin-bottom: auto; 
 }
 
 footer {
-    text-align: center; /* выравниваем текст внутри футера по центру */
-    background-color: #333; /* задаем цвет фона для футера */
-    color: white; /* задаем цвет текста для футера */
-    margin-top: auto; /* добавляем немного отступов сверху и снизу для контента внутри футера */
+    text-align: center; 
+    background-color: #333; 
+    color: white; 
+    margin-top: auto; 
     font-weight:600;
 }
 
@@ -79,11 +79,11 @@ footer {
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px; /* Добавляем отступы вокруг содержимого */
+    padding: 20px;
 }
 
 .rectangle .img-supercell {
-    margin-bottom: 20px; /* Добавляем отступ снизу для изображения */
+    margin-bottom: 20px; 
     max-width: 50%;
     max-height: 50%;
     display: block;
@@ -91,7 +91,7 @@ footer {
 }
 
 .rectangle .img-progressbar {
-    margin-bottom: 20px; /* Добавляем отступ снизу для изображения */
+    margin-bottom: 20px; 
     max-width: 350px;
     max-height: 75%;
     display: block;
@@ -110,13 +110,13 @@ footer {
 
 
 .rectangle form {
-    margin-top: 10px; /* Добавляем отступ сверху для формы */
+    margin-top: 10px; 
 }
 
 .rectangle input[type="email"],
 .rectangle input[type="password"],
 .rectangle button {
-    width: calc(100% - 22px); /* Учитываем отступы при вычислении ширины элементов */
+    width: calc(100% - 22px); 
     padding: 10px;
     margin-bottom: 10px;
     border: 2px solid #ccc;
@@ -126,19 +126,19 @@ footer {
 .rectangle button {
     width: 50%;
     padding: 20px;
-    margin: 10px auto; /* Отступы сверху и снизу автоматически, выравнивание по центру по горизонтали */
+    margin: 10px auto; 
     border: 1px solid #ccc;
     border-radius: 30px;
     background-color: #007bff;
     color: white;
     cursor: pointer;
     font-weight: bold;
-    transition: background-color 0.3s ease; /* Анимация при изменении цвета фона */
+    transition: background-color 0.3s ease; 
     display: block;
 }
 
 .rectangle button[type="submit"] {
-    position: relative; /* Добавляем позиционирование для псевдоэлемента */
+    position: relative; 
     font: bold;
 }
 
@@ -151,8 +151,8 @@ footer {
 }
 
 .rectangle button[type="submit"]::after {
-    content: ''; /* Добавляем пустое содержимое для псевдоэлемента */
-    position: absolute; /* Абсолютное позиционирование */
+    content: ''; 
+    position: absolute; 
     top: 0;
     left: 0;
     width: 100%;
@@ -164,7 +164,7 @@ footer {
 }
 
 .rectangle button:hover[type="submit"]::after {
-    opacity: 1; /* Увеличиваем прозрачность при наведении */
+    opacity: 1; 
 }
 
 .rectangle .error-code {
@@ -197,7 +197,7 @@ font-size: 90%;
 
 @media (min-width: 600px) and (min-height: 600px) {
     .rectangle {
-        opacity: 0; /* При разрешении больше чем 1080x1920 применяется opacity 0 */
+        opacity: 0;
     }
 }
 
@@ -211,11 +211,11 @@ font-size: 90%;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px; /* Добавляем отступы вокруг содержимого */
+    padding: 20px;
 }
 
 .error .img-supercell {
-    margin-bottom: 20px; /* Добавляем отступ снизу для изображения */
+    margin-bottom: 20px;
     max-width: 50%;
     max-height: 50%;
     display: block;
@@ -237,6 +237,6 @@ font-size: 90%;
 
 @media (min-width: 601px) and (min-height: 601px) {
     .error {
-        opacity: 1; /* При разрешении больше чем 600x600 применяется opacity 1 */
+        opacity: 1;
     }
 }
